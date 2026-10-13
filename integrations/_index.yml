@@ -26,7 +26,7 @@
     - Data Dictionary 1.7 Certified
     summary_url: https://certification.reso.org/summary/T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-all-jersey-mls
@@ -49,7 +49,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-bakersfield-association-of-realtors-gemls
@@ -72,7 +72,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-bay-area-real-estate-information-services-bareis
@@ -95,7 +95,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-firelands-association-of-realtors
@@ -118,7 +118,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-fresno-mls
@@ -143,7 +143,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-kings-county-board-of-realtors
@@ -166,7 +166,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-lubbock-association-of-realtors
@@ -189,7 +189,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-lynchburg-association-of-realtors
@@ -212,7 +212,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-metrolist
@@ -235,7 +235,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-mls-of-greater-cincinnati-cincymls
@@ -257,7 +257,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-northeast-arkansas-board-of-realtors
@@ -280,7 +280,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-ojai-valley-board-of-realtors
@@ -303,7 +303,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-san-francisco-association-of-realtors-mls
@@ -328,7 +328,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-south-tahoe-association-of-realtors
@@ -351,7 +351,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-southeastern-indiana-board-of-realtors
@@ -374,7 +374,7 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
 - slug: rapattoni-tehachapi-area-association-of-realtors
@@ -397,6 +397,6 @@
     organization_type: MLS
     vendor_uoi: T00000076
     detected_by: sweep-real-estate.py
-    detected: '2026-10-13'
+    detected: '2026-10-14'
   status: not-a-workflow
   arazzo: null
