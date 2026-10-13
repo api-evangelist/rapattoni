@@ -64,11 +64,6 @@ apis:
   - type: ChangeLog
     url: https://rapattoni.com/dev/665-dev_change_log_rets
 
-x-enrichment:
-  status: enriched
-  pass: local-v5
-  date: '2026-10-13'
-
 x-coverage:
   state: blocked
   reason: bot-challenge
@@ -82,3 +77,7 @@ x-coverage:
     status: 403
   - url: https://rapattoni.com/
     status: 403
+x-enrichment:
+  status: enriched
+  pass: local-v5
+  date: '2026-10-13'
