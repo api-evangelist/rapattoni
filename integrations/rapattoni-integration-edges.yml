@@ -1,0 +1,16 @@
+generated: '2026-10-13'
+method: none
+source:
+- https://zapier.com/apps/rapattoni/integrations
+- https://n8n.io/integrations/rapattoni/
+- https://composio.dev/toolkits/rapattoni
+- https://monid.ai/tools/rapattoni
+checked:
+- https://composio.dev/toolkits/rapattoni
+- https://monid.ai/tools/rapattoni
+- https://n8n.io/integrations/rapattoni/
+- https://zapier.com/apps/rapattoni/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

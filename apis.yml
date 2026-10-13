@@ -1,23 +1,84 @@
 aid: rapattoni
+
 name: Rapattoni
-description: 'Rapattoni is a company surfaced via the API Evangelist harvest backlog (source: gap-automotive-real-estate)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: Rapattoni Corporation is a California-based provider of multiple listing service (MLS), association management,
+  accounting and REALTOR association software for boards and MLSs in the United States. It maintains a developer section on
+  rapattoni.com (/dev/) covering its RETS data service and change log and a RESO Web API section for licensed third-party
+  data access to MLS listing data. The rapattoni.com site geo-blocks non-US traffic and returned 403 to every probe in this
+  pass, so no endpoint, base URL or machine-readable contract could be verified; the record holds only what was observable.
+
 url: https://raw.githubusercontent.com/api-evangelist/rapattoni/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:gap-automotive-real-estate
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+
+x-tier-reason: enrichment pass 2026-10-13 (local-v5; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-13'
+
 modified: '2026-10-13'
+
 tags:
 - Company
-apis: []
+- Real Estate
+- MLS
+- RESO Web API
+- RETS
+- Association Management
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/rapattoni-hosts.yml
+- type: GitHubOrganization
+  url: https://github.com/Rapattoni
+- type: DomainSecurity
+  url: security/rapattoni-domain-security.yml
 - type: Website
   url: https://rapattoni.com/
+- type: Documentation
+  url: https://rapattoni.com/dev/665-dev_change_log_rets
+
+apis:
+- aid: rapattoni:mls-data-services
+  name: Rapattoni MLS Data Services (RETS / RESO Web API)
+  description: RETS and RESO Web API access to Rapattoni-hosted MLS listing data for licensed third parties. The developer
+    pages are geo-restricted and were not readable from this pass; no base URL is recorded.
+  humanURL: https://rapattoni.com/dev/665-dev_change_log_rets
+  tags:
+  - RESO Web API
+  - RETS
+  - MLS
+  properties:
+  - type: ChangeLog
+    url: https://rapattoni.com/dev/665-dev_change_log_rets
+
+x-enrichment:
+  status: enriched
+  pass: local-v5
+  date: '2026-10-13'
+
+x-coverage:
+  state: blocked
+  reason: bot-challenge
+  method: derived
+  generated: '2026-10-13'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company's own front door answers a browser with an anti-bot challenge, so nothing behind it is reachable by any reader
+  evidence:
+  - url: https://rapattoni.com/api/mcp
+    status: 403
+  - url: https://rapattoni.com/
+    status: 403
